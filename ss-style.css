@@ -1,0 +1,129 @@
+/* Import Roboto font from Google Fonts API */
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900,900i');
+
+:root{
+    /* CSS SNIPPET: Variables */
+    /* Background colours */
+    --clr-bg-dark: #1f2937; /* Hero and footer section bg */
+    --clr-bg-light: white;
+    --clr-bg-quote: #e5e7eb; 
+
+    /* Text colours */
+    /* 1 is for most prominent, then going lower. */
+    --clr-text-hero-1: #F9FAF8; /* Hero section*/
+    --clr-text-hero-2: #e5e7eb; /* Hero section*/
+    --clr-text-info: #1F2937;   /* Black text for information section header */
+    --clr-text-quote: #1F2937;  /* quote body text */
+
+    /* Blue colour for button and call to action bg */
+    --clr-btn: #3882F6; 
+
+    /* Fonts */
+    --ff-main: 'Roboto', sans-serif;
+}
+
+
+
+/* Universal */
+html,
+body{
+    height:100%; /* Need both html and body to scale to 100% of viewheight */
+}
+
+body {
+    /* Fonts */
+    font-family: var(--ff-main);
+    font-weight: 400;
+    line-height: 1.6;
+
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center;
+    justify-content: space-between; */
+    margin: 0;
+    padding: 0;
+}
+
+body>*{
+    width: 100%;
+    
+}
+
+ul{
+    margin:0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.container{
+    flex: 2 1 auto;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/* NAV BAR */
+nav
+{
+    flex: 1 1 100%;
+    width: 100%;
+    padding: 0;
+    background-color: var(--clr-bg-dark);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: space-between;
+}
+
+.navbar{
+    display:flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-item{
+    flex: 1;
+}
+
+.header-logo{
+
+}
+
+
+/* HERO SECTION */
+.hero{
+    display: flex;
+    gap:50px;
+    justify-content: space-around;
+
+}
+
+.hero-img{
+    width: 500px;
+    flex-basis: 75%;
+    justify-content: flex-end;
+}
+.hero-text{
+    flex-basis: 25%;
+    justify-content: flex-start;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
+footer{
+    flex: 1 1 auto;
+}
