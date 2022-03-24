@@ -1,0 +1,18 @@
+:root{
+    /* CSS SNIPPET: Variables */
+    /* Background colours */
+    --clr-bg-dark: #1f2937; /* Hero and footer section bg */
+    --clr-bg-light: white;
+    --clr-bg-quote: #e5e7eb; 
+
+    /* Text colours */
+    /* 1 is for most prominent, then going lower. */
+    --clr-text-hero-1: #F9FAF8; /* Hero section*/
+    --clr-text-hero-2: #e5e7eb; /* Hero section*/
+    --clr-text-info: #1F2937;   /* Black text for information section header */
+    --clr-text-quote: #1F2937;  /* quote body text */
+
+    /* Blue colour for button and call to action bg */
+    --clr-btn: #3882F6; 
+
+}
