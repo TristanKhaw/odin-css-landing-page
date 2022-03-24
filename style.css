@@ -1,3 +1,6 @@
+/* Import Roboto font from Google Fonts API */
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900,900i');
+
 :root{
     /* CSS SNIPPET: Variables */
     /* Background colours */
@@ -15,4 +18,48 @@
     /* Blue colour for button and call to action bg */
     --clr-btn: #3882F6; 
 
+    /* Fonts */
+    --ff-main: 'Roboto', sans-serif;
 }
+
+
+
+html{
+    height:100%
+}
+
+body{
+    /* Fonts */
+    font-family: var(--ff-main);
+    font-weight: 400;
+    line-height: 1.6;
+
+    height: 100%;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+}
+
+ul{
+    margin:0;
+    padding: 0;
+    list-style-type: none;
+}
+
+/* header, footer
+{
+    flex: none;
+    display: flex;
+    flex-direction: row;
+} */
+
+header{
+    align-items: center;
+    justify-content: flex-end;
+}
+
