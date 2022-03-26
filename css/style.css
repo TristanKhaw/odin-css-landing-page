@@ -61,10 +61,14 @@ ul{
     list-style-type: none;
 }
 
-h1, h2, h3{
+a {
+    text-decoration: none;
+}
+
+h1, h2, h3, p{
     padding: 0;
     margin: 0;
-    line-height: 0;
+    /* line-height: 0; */
 }
 
 nav,
@@ -110,29 +114,57 @@ nav li {
 
 
 header {
+    background-color: var(--clr-bg-dark);
     width: 100%;
     display: flex;
     gap: 50px;
-}
-
-header > * {
-    flex: 1 1 0;
-    padding: 50px 0
-    box-sizing: border-box;
-}
-
-.hero-img {
-    width: 50%;
-    flex: 1 1 0;
-    box-sizing: border-box;
     padding: 50px;
 }
 
+/* header > * {
+    flex: 1 1 0;
+    padding: 50px 0
+    box-sizing: border-box;
+} */
+
+.hero-img {
+    flex: 1 1 0;
+    box-sizing: border-box;
+    padding: 50px;
+    margin: 50 px
+}
+
 .hero-text{
+    flex: 1 1 0;
     display:flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.hero-text>h1{
+    color: var(--clr-text-hero-1);
+    font-size: 50px;
+}
+
+.hero-text > p{
+    color: var(--clr-text-hero-2);
+    padding: 10px;
+}
+
+.btn-dark-bg{
+    color:var(--clr-text-hero-2);
+    background-color: var(--clr-btn);
+    padding: 25px;
+    border-radius: 5px;
+}
+
+.btn-light-bg{
+    border: 2px var(--clr-text-hero-2) solid;
+    background-color: var(--clr-btn);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 3px;
 }
 
 
@@ -173,6 +205,7 @@ header > * {
     margin: 25px;
     padding: 50px;
     background-color: var(--clr-btn);
+    align-items: center;
 }
 
 
