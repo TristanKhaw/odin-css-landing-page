@@ -1,5 +1,8 @@
+/* Import CSS normalize */
+@import "reset/normalize.css"
 /* Import Roboto font from Google Fonts API */
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900,900i');
+
 
 :root{
     /* CSS SNIPPET: Variables */
@@ -56,6 +59,12 @@ ul{
     margin:0;
     padding: 0;
     list-style-type: none;
+}
+
+h1, h2, h3{
+    padding: 0;
+    margin: 0;
+    line-height: 0;
 }
 
 nav,
@@ -154,6 +163,18 @@ header > * {
     display: flex;
     padding: 50px 0;
 }
+
+
+/* Call to Action section */
+
+.call-to-action-box {
+    display: flex;
+    border-radius: 5px;
+    margin: 25px;
+    padding: 50px;
+    background-color: var(--clr-btn);
+}
+
 
 
 /* Footer */
