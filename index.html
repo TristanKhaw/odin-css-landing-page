@@ -1,89 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Odin Project Assignment: CSS Landing Page</title>
-    <link rel="stylesheet" href="css/style.css">
-</head>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
 
-<body>
-    <div class="wrapper">
+  <body>
+    <div class="wrapper bg-dark">
+      <nav class="navbar">
+        <!-- Top Nav Bar -->
 
-        <nav class='navbar'>
-            <!-- Top Nav Bar -->
+        <h1 class="header-logo-text">Header Logo</h1>
 
-
-            <h1 class="header-logo-text">Header Logo</h1>
-
-            <ul class="nav-links">
-                <li class="nav-item"><a href="#">Header Link One</a></li>
-                <li class="nav-item"><a href="#">Header Link Two</a></li>
-                <li class="nav-item"><a href="#">Header Link Three</a></li>
-            </ul>
-
-        </nav>
-
-        <div class="container hero">
-            <header>
-
-                <!-- Hero section -->
-                <div class="hero-text">
-
-                    <h1>This website is awesome</h1>
-                    <p>This website has some subtext. Color is lower contrast</p>
-                    <a href="#" class="btn-dark-bg">Sign up</a>
-                </div>
-                <img src="https://source.unsplash.com/sK0dKnDOcEM" alt="Placeholder image" srcset="" class="hero-img">
-            </header>
-        </div>
-
-        <div class="container info">
-            <h2>Some random information</h2>
-            <ul>
-                <li>
-                    <img src="" alt="" srcset="">
-                    <p>Subtext text text</p>
-                </li>
-                <li>
-                    <img src="" alt="" srcset="">
-                    <p>Subtext text text</p>
-                </li>
-                <li>
-                    <img src="" alt="" srcset="">
-                    <p>Subtext text text</p>
-                </li>
-                <li>
-                    <img src="" alt="" srcset="">
-                    <p>Subtext text text</p>
-                </li>
-            </ul>
-        </div>
-
-        <div class="container testimonial">
-            <p class="testimonial-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio expedita
-                neque
-                est alias quidem optio.</p>
-            <p class="testimonial-author">- Thor, God of Thunder</p>
-        </div>
-
-        <div class="container call-to-action">
-            <div class="call-to-action-box">
-                <span>
-                    <h3>Call to action! It's Time!</h3>
-                    <p>Sign up for our product by clicking that button right over there!</p>
-                </span>
-                <a href="#" class="btn-light-bg">Sign up</a>
-            </div>
-        </div>
-
-        <footer>
-            <p>Copyright &copy Tristan Khaw 2022</p>
-        </footer>
+        <ul class="nav-links">
+          <li class="nav-item"><a href="#">Header Link One</a></li>
+          <li class="nav-item"><a href="#">Header Link Two</a></li>
+          <li class="nav-item"><a href="#">Header Link Three</a></li>
+        </ul>
+      </nav>
     </div>
 
-</body>
+    <div class="wrapper bg-dark">
+      <div class="container hero">
+        <header>
+          <!-- Hero section -->
+          <div class="hero-text">
+            <h1>This website is awesome</h1>
+            <p>This website has some subtext. Color is lower contrast</p>
+            <a href="#" class="btn-dark-bg">Sign up</a>
+          </div>
+          <img
+            src="https://source.unsplash.com/sK0dKnDOcEM"
+            alt="Placeholder image"
+            srcset=""
+            class="hero-img"
+          />
+        </header>
+      </div>
+    </div>
 
+    <div class="wrapper bg-light">
+      <div class="container info">
+        <h2>Some random information</h2>
+        <ul>
+          <li>
+            <img src="" alt="" srcset="" />
+            <p>Subtext text text</p>
+          </li>
+          <li>
+            <img src="" alt="" srcset="" />
+            <p>Subtext text text</p>
+          </li>
+          <li>
+            <img src="" alt="" srcset="" />
+            <p>Subtext text text</p>
+          </li>
+          <li>
+            <img src="" alt="" srcset="" />
+            <p>Subtext text text</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="wrapper bg-quote">
+      <div class="container testimonial">
+        <p class="testimonial-body">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio
+          expedita neque est alias quidem optio.
+        </p>
+        <p class="testimonial-author">- Thor, God of Thunder</p>
+      </div>
+    </div>
+
+    <div class="wrapper bg-light">
+      <div class="container call-to-action">
+        <div class="call-to-action-box">
+          <span>
+            <h3>Call to action! It's Time!</h3>
+            <p>
+              Sign up for our product by clicking that button right over there!
+            </p>
+          </span>
+          <a href="#" class="btn-light-bg">Sign up</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="wrapper bg-dark">
+      <footer>
+        <p>Copyright &copy Tristan Khaw 2022</p>
+      </footer>
+    </div>
+  </body>
 </html>
