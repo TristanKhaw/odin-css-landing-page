@@ -146,6 +146,7 @@ header {
 .hero-img {
   flex: 1 1 0;
   box-sizing: border-box;
+  height: clamp(5rem, 25%, 30%);
   width: clamp(5rem, 25%, 30%);
   padding: 50px;
   margin: 50 px;
